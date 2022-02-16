@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>todo-list</title>
+</head>
+<body>
+    <div class="todo">
+<!-- 
+        <div>
+            <p>Nome: <input type="text" name="nome" id="nome"></p>
+            <input type="button" value="Salvar" onclick="salvarNome()">
+            <p id="resposta"></p>
+        </div>-->
+        <!-- <div class = "data">
+            <p id="dataDia"></p>
+        </div> -->
+
+        <div class="todo__title">
+            TAREFAS DIÁRIAS
+        </div>
+
+        <div class="todo__list" id = 'todoList'>
+            
+        </div>
+
+        <div class="todo__new-item">
+            <input type="text" id="newItem" placeholder="Digite e pressione enter para adicionar a tarefa">
+        </div>
+
+        <input type="button" value="Limpar Tarefas" id="btnClean" class="botaoClean">
+        <input type="button" value="Imprimir" onClick="window.print()" class="botaoClean">
+
+        <p id="outAtividadesFeitas"></p>
+        <p id="outAtividadesPendentes"></p>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
